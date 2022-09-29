@@ -1,7 +1,7 @@
 package com.bridgelabz.basics;
 import java.util.Scanner;   // importing a scanner class
 
-public class PositiveOrNegative {
+public class Positive_Or_Negative_Number {
     public static void main(String[] args) {
         System.out.println("Enter a number ");  // Taking input from the user
         Scanner sc = new Scanner(System.in);   // creating an object of scanner class (sc)

@@ -1,7 +1,7 @@
 package com.bridgelabz.basics;
 import java.util.Scanner;
 
-public class Greatest_Of_Two_Number {
+public class Greatest_Of_Two_Numbers {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Input a number");

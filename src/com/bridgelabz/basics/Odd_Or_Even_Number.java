@@ -1,7 +1,7 @@
 package com.bridgelabz.basics;
 import java.util.Scanner;     // importing a scanner class
 
-public class OddOrEven {
+public class Odd_Or_Even_Number {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);    // creating an object of scanner class (sc)
         System.out.println("Enter a number");   // Taking input from the user
