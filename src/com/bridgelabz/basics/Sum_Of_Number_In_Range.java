@@ -9,7 +9,7 @@ public class Sum_Of_Number_In_Range {
         int a = sc.nextInt();                 // Calling Scanner object (sc) through int data type of (a) variable
         System.out.println("Input a Range Ends With");    // Taking user input, the range ends with
         int b = sc.nextInt();               // Calling Scanner object (sc) through int data type of (b) variable
-        for (i=a;i<=b;i++){                 // Using for loops 
+        for (i=a;i<=b;i++){                 // Using for loops
             sum+=i;                         // Sum of the ranges of all the number
         }
         System.out.println("The sum of natural number from " + a + " to " + b + " is:- " + sum);
