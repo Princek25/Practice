@@ -1,11 +1,11 @@
 package com.bridgelabz.basics;
-import java.util.Scanner;
+import java.util.Scanner;  // importing a scanner class
 
 public class Greatest_Of_Three_Numbers {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Input First Number");
-        int a = sc.nextInt();
+        Scanner sc = new Scanner(System.in);        // creating an object of scanner class (sc)
+        System.out.println("Input First Number");  // Taking input from the user
+        int a = sc.nextInt();                     // creating a variable (a) of int type and calling the object sc
         System.out.println("Input Second Number");
         int b = sc.nextInt();
         System.out.println("Input Third Number");
