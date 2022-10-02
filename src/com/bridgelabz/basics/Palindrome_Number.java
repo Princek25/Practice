@@ -5,7 +5,7 @@ import java.util.Scanner;
 // For example 121, 343, 131, are the palindrome numbers.
 
 public class Palindrome_Number {
-    public static void main(String[] args) {
+    static void palindromeNumber(){
         int num,c,rem,sum =0;    // User Input - num
         System.out.println("Input a number:- ");
         Scanner sc = new Scanner(System.in);
@@ -21,6 +21,8 @@ public class Palindrome_Number {
             System.out.println(c + " is a Palindrome Number");
         }
         else System.out.println(c + " is not a Palindrome Number");
-
+    }
+    public static void main(String[] args) {
+        palindromeNumber();
     }
 }
