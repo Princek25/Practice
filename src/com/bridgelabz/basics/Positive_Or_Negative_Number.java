@@ -1,11 +1,14 @@
 package com.bridgelabz.basics;
-import java.util.Scanner;   // importing a scanner class
+import java.util.Scanner;
+
+// Positive or Negative Numbers
+// Programing Logic = if a number is greater than 1 is positive else negative and 0 = neither positive nor negative
 
 public class Positive_Or_Negative_Number {
-    public static void main(String[] args) {
-        System.out.println("Enter a number ");  // Taking input from the user
-        Scanner sc = new Scanner(System.in);   // Creating an object of scanner class (sc)
-        int a = sc.nextInt();                 // Creating a variable (a) of int type and calling the object sc
+    static void positiveNegativeNumbers(){
+        System.out.println("Enter a number ");
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();      // Taking user input stored in variable (a).
         if (a>=1){
             System.out.println("It is a positive number");
         }
@@ -15,5 +18,8 @@ public class Positive_Or_Negative_Number {
         else {
             System.out.println("It is a negative number");
         }
+    }
+    public static void main(String[] args) {
+        positiveNegativeNumbers();
     }
 }
