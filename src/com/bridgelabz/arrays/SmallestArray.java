@@ -8,7 +8,7 @@ public class SmallestArray {
 
         for (int i=0;i< arr.length;i++){
             if (min>arr[i]){
-                min=arr[i];  
+                min=arr[i];
             }
         }
         System.out.println(min + " is the smallest element in the array");
