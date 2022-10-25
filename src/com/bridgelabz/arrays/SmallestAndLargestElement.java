@@ -1,19 +1,24 @@
 package com.bridgelabz.arrays;
 
-public class LargestAndSmallest {
-    public static void main(String[] args) {
-        int arr [] = {53,54,24,35,85,45,77};
-        int max = arr[0]; // assume
-        int min = arr[0]; // assume
-        for (int i=0;i< arr.length;i++){
-            if (max<arr[i]){
-                max=arr[i];
+public class SmallestAndLargestElement {
+
+    void checkSmallestAndLargestElement(int arr []){
+        int largest = arr[0], smallest = arr[0];
+        for (int i = 0; i<arr.length;i++){
+            if (largest<arr[i]){
+                largest=arr[i];
             }
-            if (min>arr[i]){
-                min=arr[i];
+            if (smallest>arr[i]){
+                smallest=arr[i];
             }
         }
-        System.out.println(max + " is largest element of the array");
-        System.out.println(min + " is smallest element of the array");
+        System.out.println(smallest + " is the smallest element in the array");
+        System.out.println(largest + " is the largest element in the array");
+    }
+
+    public static void main(String[] args) {
+        int arr [] = {26, 53, 54, 24, 35, 85, 45, 77};
+        SmallestAndLargestElement obj = new SmallestAndLargestElement();
+        obj.checkSmallestAndLargestElement(arr);
     }
 }
