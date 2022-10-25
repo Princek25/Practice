@@ -1,6 +1,6 @@
 package com.bridgelabz.arrays;
 
-public class SmallestArray {
+public class SmallestElement {
 
     void checkSmallestArray(int arr[]){
         int smallest = arr[0]; // assume
@@ -14,7 +14,7 @@ public class SmallestArray {
 
     public static void main(String[] args) {
         int arr [] = {37,42,25,35,45,78,21,34};
-        SmallestArray obj = new SmallestArray();
+        SmallestElement obj = new SmallestElement();
         obj.checkSmallestArray(arr);
     }
 }
